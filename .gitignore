@@ -1,3 +1,5 @@
-achive/
-.sqlite
+Archive/
+*.sqlite
 dataset/
+imgs/
+
