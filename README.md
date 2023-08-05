@@ -1,11 +1,13 @@
 # Soccer Match Result Prediction
 
 This project aims at exploring the 'European Soccer Dataset' from Kaggle, which includes lineups and results of +25,000 matches in European leagues, from Seasons 2008 to 2016, as well as team attributes and player attributes. The project built and compared two models with different feature engineering methods.
-Data: [Data](https://www.kaggle.com/datasets/hugomathien/soccer)
+
+Data Sourece: [Data](https://www.kaggle.com/datasets/hugomathien/soccer)
 
 1. Data Transformation
 
 The data source has noted the XY coordinates of all 22 players in the starting lineup. To reflect the player stats based on different positions, I took an arbitrary move by dividing the field into positions as shown below:
+
    [formation](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/Positions.jpg?raw=true)
 
 This division labeled players as MF(midfielder), ST(striker), W(winger), SB(side back), CB(center back), GK(goalkeeper). In the distribution (see below) MF has the highest count.
