@@ -1,5 +1,5 @@
 Archive/
 *.sqlite
 dataset/
-imgs/
+.ipynb_checkpoints/
 
