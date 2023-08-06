@@ -28,7 +28,7 @@ The final attribute grouping:
     'offence_misc':['ball_control', 'positioning', 'vision'],
     'movement':['dribbling','acceleration','sprint_speed']
 
-
+f
 
 
 
