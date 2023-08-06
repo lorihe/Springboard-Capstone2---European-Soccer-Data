@@ -1,3 +1,7 @@
+<style>
+H4{color:DarkOrange !important;}
+</style>
+
 # Soccer Match Result Prediction
 
 This project explored the 'European Soccer Dataset' from Kaggle, which includes lineups and results of +25,000 matches in European leagues, from Seasons 2008 to 2016, as well as team attributes and player attributes. The project also built and compared two models with different feature engineering methods.
