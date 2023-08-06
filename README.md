@@ -2,7 +2,7 @@
 
 This project aims at exploring the 'European Soccer Dataset' from Kaggle, which includes lineups and results of +25,000 matches in European leagues, from Seasons 2008 to 2016, as well as team attributes and player attributes. The project built and compared two models with different feature engineering methods.
 
-Data Sourece: [Data](https://www.kaggle.com/datasets/hugomathien/soccer)
+Data Source: [Kaggle-European Soccer Dataset](https://www.kaggle.com/datasets/hugomathien/soccer)
 
 1. Data Transformation
 
