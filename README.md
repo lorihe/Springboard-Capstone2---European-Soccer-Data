@@ -5,7 +5,7 @@ This project explored the 'European Soccer Dataset' from Kaggle, which includes 
 Data Source: [Kaggle-European Soccer Dataset](https://www.kaggle.com/datasets/hugomathien/soccer)
 
 #### 01_Data_Overview
----
+-------
 The raw data source contains seven tables:
 - matches: 25979 rows containing match date,  home team, away team, starting coordinates of all players, betting info, etc.
 - countries: id for 11 countries
