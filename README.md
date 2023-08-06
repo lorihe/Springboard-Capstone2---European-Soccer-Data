@@ -18,7 +18,15 @@ The raw data source contains seven tables:
 ### 02_Player_Detail_Transformation
 
 I simplified the 38 attributes in 'player_detail' table into six categories: 'passing', 'shooting', 'defence', 'goalkeeping', 'offence_misc', 'movement'.
-Plotting the correlation heatmap on preliminary grouping shows that
+Plotting the correlation heatmap on preliminary grouping indicates whether in-group conflict exists. Some attributes were taken out of the group to avoid canceling out each other.
+
+The final attribute grouping:
+    'passing':['crossing', 'short_passing', 'long_passing'],
+    'shooting':['finishing','free_kick_accuracy','shot_power','long_shots'],
+    'defence':['interceptions','marking','standing_tackle','sliding_tackle'],
+    'goalkeeping':['gk_diving', 'gk_handling', 'gk_positioning','gk_reflexes'],
+    'offence_misc':['ball_control', 'positioning', 'vision'],
+    'movement':['dribbling','acceleration','sprint_speed']
 
 
 
