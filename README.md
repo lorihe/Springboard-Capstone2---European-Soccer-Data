@@ -142,5 +142,5 @@ Model performance was compared between: 1. a dummy classifier predicting based o
 
 **Advantage feature model**
 
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-4.PNG?raw=true" alt="Image Description" width="400" height="180"> 
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-4.PNG?raw=true" alt="Image Description" width="400" height="170"> 
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-5.PNG?raw=true" alt="Image Description" width="210" height="200">
