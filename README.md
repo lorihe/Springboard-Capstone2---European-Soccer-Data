@@ -29,17 +29,18 @@ Plotting the correlation heatmap on preliminary grouping indicates whether in-gr
 </div>
 <div style="display: flex; align-items: flex-start;">
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-4.PNG?raw=true" alt="Image Description" width="250" height="230">
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-5.PNG?raw=true" alt="Image Description" width="285" height="230">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-5.PNG?raw=true" alt="Image Description" width="280" height="230">
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-6.PNG?raw=true" alt="Image Description" width="280" height="230">
 </div>
 
-The final attribute grouping: \
-> 'passing':['crossing', 'short_passing', 'long_passing'], \
+The final attribute grouping: 
+> feature_group = {
+>   'passing':['crossing', 'short_passing', 'long_passing'], \
     'shooting':['finishing','free_kick_accuracy','shot_power','long_shots'], \
     'defence':['interceptions','marking','standing_tackle','sliding_tackle'], \
     'goalkeeping':['gk_diving', 'gk_handling', 'gk_positioning','gk_reflexes'], \
     'offence_misc':['ball_control', 'positioning', 'vision'], \
-    'movement':['dribbling','acceleration','sprint_speed'] 
+    'movement':['dribbling','acceleration','sprint_speed'] }
 
 #### 03_Match_Transformation  [Notebook](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/Notebook/03_Match_Transformation.ipynb)
 
