@@ -53,7 +53,7 @@ The data source has noted the XY coordinates of all 22 players in the starting l
 
 Upon this, players are labeled as MF(midfielder), ST(striker), W(winger), SB(side back), CB(center back), GK(goalkeeper). In the distribution (see below) MF has the highest count.
 
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-1.PNG?raw=true" alt="Image Description" width="300" height="270">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-1.PNG?raw=true" alt="Image Description" width="300" height="250">
 
 Graphs below are three samples of different starting formations, with player positions labeled.
 <div style="display: flex; align-items: flex-start;">
@@ -76,14 +76,14 @@ The correlation heatmap below shows that:
 
 All the attributes-position combos were plotted to show their relations with game results (partially shown below). Some plots were as expected, like high offence_misc midfielder and high defense center back both matching with more wins than losses, while striker's defense and centreback's offence_misc didn't show a strong relation with win or loss distribution. Some are not as easily expected, like the midfielder's defense not showing strong relation but the centreback's movement showing relation with more wins.
 <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-1.PNG?raw=true" alt="Image Description" width="250" height="180">
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-2.PNG?raw=true" alt="Image Description" width="250" height="180">
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-3.PNG?raw=true" alt="Image Description" width="250" height="180">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-1.PNG?raw=true" alt="Image Description" width="250" height="170">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-2.PNG?raw=true" alt="Image Description" width="250" height="170">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-3.PNG?raw=true" alt="Image Description" width="250" height="170">
 </div>
 <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-4.PNG?raw=true" alt="Image Description" width="250" height="180">
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-5.PNG?raw=true" alt="Image Description" width="250" height="180">
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-6.PNG?raw=true" alt="Image Description" width="250" height="180">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-4.PNG?raw=true" alt="Image Description" width="250" height="170">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-5.PNG?raw=true" alt="Image Description" width="250" height="170">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-6.PNG?raw=true" alt="Image Description" width="250" height="170">
 </div>
 
 
@@ -136,11 +136,11 @@ Model performance was compared between: 1. a dummy classifier predicting based o
 
 **Plain stats model**
 
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-2.PNG?raw=true" alt="Image Description" width="400" height="175"> 
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-2.PNG?raw=true" alt="Image Description" width="400" height="170"> 
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-3.PNG?raw=true" alt="Image Description" width="200" height="200">
 
 
 **Advantage feature model**
 
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-4.PNG?raw=true" alt="Image Description" width="400" height="165"> 
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-4.PNG?raw=true" alt="Image Description" width="400" height="160"> 
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-5.PNG?raw=true" alt="Image Description" width="210" height="200">
