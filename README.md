@@ -4,12 +4,11 @@ This project explored the 'European Soccer Dataset' from Kaggle, which includes 
 
 Data Source: [Kaggle-European Soccer Dataset](https://www.kaggle.com/datasets/hugomathien/soccer)
 
-<style>
-  h4 {
-    color: #255c2b;
-  }
-</style>
+
 #### 01_Data_Overview
+<svg width="200" height="30" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="20" font-family="Arial" font-size="20" fill="#255c2b">01_Data_Overview</text>
+</svg>
 
 The raw data source contains seven tables:
 - matches: 25979 rows containing match date,  home team, away team, starting coordinates of all players, betting info, etc.
@@ -26,7 +25,7 @@ The raw data source contains seven tables:
 I simplified the 38 attributes in 'player_detail' table into six categories: 'passing', 'shooting', 'defence', 'goalkeeping', 'offence_misc', 'movement'.
 Plotting the correlation heatmap on preliminary grouping indicates whether in-group conflict exists. Some attributes were taken out of the group to avoid canceling out each other.
 
-<img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-1.PNG?raw=true" alt="Image Description" width="280" height="250"> <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-2.PNG?raw=true" alt="Image Description" width="280" height="250"> <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-3.PNG?raw=true" alt="Image Description" width="280" height="250"> 
+<img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-1.PNG?raw=true" alt="Image Description" width="260" height="240"> <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-2.PNG?raw=true" alt="Image Description" width="285" height="255"> <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-3.PNG?raw=true" alt="Image Description" width="280" height="250"> 
 
 ![i](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-1.PNG?raw=true | width=24 | height=24) 
 
