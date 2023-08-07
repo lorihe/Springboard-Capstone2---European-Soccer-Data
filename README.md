@@ -145,3 +145,11 @@ Model performance was compared between: 1. a dummy classifier predicting based o
 Logistic Regression \
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-4.PNG?raw=true" alt="Image Description" width="400" height="160">  \
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-5.PNG?raw=true" alt="Image Description" width="210" height="200">
+
+#### Conclusion: 
+- The models with advantage stats and with plain stats have similar performance, and both obviously better than the dummy classifier
+- For the plain stats model, the most important features are: *defence_CB_home, passing_MF_away, passing_MF_home,
+  defence_CB_away, shooting_ST_away, defence_SB_home, shooting_ST_home, defence_SB_away, passing_SB_away, passing_SB_home,  passing_W_home* \
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-6.PNG?raw=true" alt="Image Description" width="400" height="360">  
+- For the engineered model, the most important features are: *offence_misc_adv, offence_pass_adv, defence_pass_adv, offence_box_adv* \
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-6.PNG?raw=true" alt="Image Description" width="400" height="160"> 
