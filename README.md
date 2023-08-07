@@ -4,13 +4,8 @@ This project explored the 'European Soccer Dataset' from Kaggle, which includes 
 
 Data Source: [Kaggle-European Soccer Dataset](https://www.kaggle.com/datasets/hugomathien/soccer)
 
-<div style="background-color: #FFFF99; padding: 5px; border-radius: 5px;">
-  <h4>01_Data_Overview</h4>
-</div>
-#### 01_Data_Overview
-<svg width="200" height="30" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="20" font-family="Arial" font-size="20" fill="#255c2b">01_Data_Overview</text>
-</svg>
+
+#### 01_Data_Overview [Notebook Name]([URL](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/Notebook/01_Data_Overview.ipynb))
 
 The raw data source contains seven tables:
 - matches: 25979 rows containing match date,  home team, away team, starting coordinates of all players, betting info, etc.
