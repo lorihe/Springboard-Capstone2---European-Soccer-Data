@@ -34,7 +34,7 @@ Plotting the correlation heatmap on preliminary grouping indicates whether in-gr
 </div>
 
 The final attribute grouping: \
-    'passing':['crossing', 'short_passing', 'long_passing'], \
+> 'passing':['crossing', 'short_passing', 'long_passing'], \
     'shooting':['finishing','free_kick_accuracy','shot_power','long_shots'], \
     'defence':['interceptions','marking','standing_tackle','sliding_tackle'], \
     'goalkeeping':['gk_diving', 'gk_handling', 'gk_positioning','gk_reflexes'], \
