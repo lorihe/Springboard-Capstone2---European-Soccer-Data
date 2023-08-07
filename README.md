@@ -41,9 +41,10 @@ The final attribute grouping: \
     'offence_misc':['ball_control', 'positioning', 'vision'], \
     'movement':['dribbling','acceleration','sprint_speed'] 
 
-### 03_Match_Transformation  [Notebook](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/Notebook/03_Match_Transformation.ipynb)
+#### 03_Match_Transformation  [Notebook](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/Notebook/03_Match_Transformation.ipynb)
 
 The data source has noted the XY coordinates of all 22 players in the starting lineup. To reflect the player stats based on different positions, I took an arbitrary move by dividing the field into positions as shown below:
+
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/Positions.jpg?raw=true" alt="Image Description" width="300" height="300">
 
 Upon this, players are labeled as MF(midfielder), ST(striker), W(winger), SB(side back), CB(center back), GK(goalkeeper). In the distribution (see below) MF has the highest count.
@@ -51,9 +52,9 @@ Upon this, players are labeled as MF(midfielder), ST(striker), W(winger), SB(sid
 
 Graphs below are three samples of different starting formations, with player positions labeled.
 <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-2.PNG?raw=true" alt="Image Description" width="250" height="230">
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-3.PNG?raw=true" alt="Image Description" width="255" height="230">
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-4.PNG?raw=true" alt="Image Description" width="250" height="230">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-02.PNG?raw=true" alt="Image Description" width="250" height="230">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-03.PNG?raw=true" alt="Image Description" width="255" height="230">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-04.PNG?raw=true" alt="Image Description" width="250" height="230">
 </div>
 
 I merged the info of positions and attributes of each player in each game to get this **Plain stats dataset** as shown below:
@@ -65,9 +66,10 @@ I selected six attributes 'dribbling', 'sprint_speed', 'passing', 'shooting', 'd
 
 - Plain stats dataset EDA
 The correlation heatmap below shows that:
-1. there are constant high correlations between 'passing' and 'dribbling' of one position. The decision is to remove 'dribbling' for all positions.
-2. there's a high correlation between 'shooting_MF' and 'passing_MF'. The decision is to remove 'shooting_MF'.
-3. there are correlations between different positions which results from unclear reasons. The decision is to ignore it for now.
+1. there are constant high correlations between 'offence_misc',  'passing', and 'shooting' of MF, ST, and W, they should be merged.
+2. there are constant high correlations between 'offence_misc' and  'passing' of SB, they should be merged.
+
+
 
 
 
