@@ -20,6 +20,7 @@ The raw data source contains seven tables:
 
 I simplified the 38 attributes in 'player_detail' table into six categories: 'passing', 'shooting', 'defence', 'goalkeeping', 'offence_misc', 'movement'.
 Plotting the correlation heatmap on preliminary grouping indicates whether in-group conflict exists. Some attributes were taken out of the group to avoid canceling out each other.
+<a href="url"><img src="[http://url.to/image.png](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-1.PNG?raw=true)" align="left" height="48" width="48" ></a>
 ![](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-1.PNG?raw=true) ![](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-2.PNG?raw=true)
 The final attribute grouping: \
     'passing':['crossing', 'short_passing', 'long_passing'], \
