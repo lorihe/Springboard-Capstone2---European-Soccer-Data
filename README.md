@@ -120,7 +120,7 @@ Note: dictionary structure{advantage feature: [numerator(s)], [denominator(s)], 
 
 
 Plotting advantage features showed that some features such as the ability of defenders against offensive passing have an obvious relation with wins and losses. Also, a large number of outliers were noticed. 
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/05-7.PNG?raw=true" alt="Image Description" width="650" height="410">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/05-7.PNG?raw=true" alt="Image Description" width="750" height="410">
   
  Plotting below shows some advantage features have stronger relations with win or lose than the others.
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/05-8.PNG?raw=true" alt="Image Description" width="680" height="440">
