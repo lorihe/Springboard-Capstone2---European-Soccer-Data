@@ -150,7 +150,7 @@ Logistic Regression
 #### Conclusion: 
 - The models with plain stats and with advantage stats have similar performance, and both obviously better than the dummy classifier
 - For the plain stats model, the most important features are: *defence_CB_home, passing_MF_away, passing_MF_home,
-  defence_CB_away, shooting_ST_away, defence_SB_home, shooting_ST_home, defence_SB_away, passing_SB_away, passing_SB_home,  passing_W_home* \
+  defence_CB_away, shooting_ST_away, defence_SB_home, shooting_ST_home, defence_SB_away, passing_SB_away, passing_SB_home,  passing_W_home* 
   
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-6.PNG?raw=true" alt="Image Description" width="650" height="500">  
 - For the advantage stats  model, the most important features are: *offence_misc_adv, offence_pass_adv, defence_pass_adv, offence_box_adv* 
