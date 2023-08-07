@@ -22,7 +22,7 @@ I simplified the 38 attributes in 'player_detail' table into six categories: 'pa
 Plotting the correlation heatmap on preliminary grouping indicates whether in-group conflict exists. Some attributes were taken out of the group to avoid canceling out each other.
 
 <img src="[image name](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-1.PNG?raw=true)" alt= “” width="value" height="value">
-![](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-1.PNG?raw=true| width=24 | height=24) ![](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-2.PNG?raw=true)
+![](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-1.PNG?raw=true | width=24 | height=24) ![](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/02-2.PNG?raw=true)
 The final attribute grouping: \
     'passing':['crossing', 'short_passing', 'long_passing'], \
     'shooting':['finishing','free_kick_accuracy','shot_power','long_shots'], \
