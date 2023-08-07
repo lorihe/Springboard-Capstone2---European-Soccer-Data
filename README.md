@@ -108,12 +108,12 @@ Note: dictionary structure{advantage feature: [numerator(s)], [denominator(s)], 
     'offence_box_adv':(['shooting_ST_home','shooting_W_home'],['defence_CB_away','defence_SB_away'],1),  \
     'offence_GK_adv':(['shooting_ST_home','shooting_W_home'],['goalkeeping_GK_away'],0.5), \
     'defence_box_adv':(['defence_CB_home','defence_SB_home'],['shooting_ST_away','shooting_W_away'],1), \
-    'defence_GK_adv':(['goalkeeping_GK_home'],['shooting_ST_away','shooting_W_away'],2),   \ 
+    'defence_GK_adv':(['goalkeeping_GK_home'],['shooting_ST_away','shooting_W_away'],2),  
     
 >   'offence_pass_adv':(['passing_W_home', 'passing_MF_home', 'passing_SB_home'],['defence_CB_away','defence_SB_away'],2/3), \
     'offence_move_adv':(['movement_W_home'],['movement_SB_away'],1), \
     'defence_pass_adv':(['defence_CB_home','defence_SB_home'],['passing_W_away', 'passing_MF_away', 'passing_SB_away'],1.5), \
-    'defence_move_adv':(['movement_SB_home'],['movement_W_away'],1),    \ 
+    'defence_move_adv':(['movement_SB_home'],['movement_W_away'],1),    
 
 >   'offence_misc_adv':(['offence_misc_MF_home','offence_misc_ST_home','offence_misc_W_home'], \
 >                       ['offence_misc_MF_away','offence_misc_ST_away','offence_misc_W_away'],1)}
@@ -131,7 +131,7 @@ Model performance was compared between: 1. a dummy classifier predicting based o
 
 **Dummy classifier**
 
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-1.PNG?raw=true" alt="Image Description" width="400" height="600">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-1.PNG?raw=true" alt="Image Description" width="400" height="500">
 
 
 **Plain stats model**
