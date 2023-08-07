@@ -4,7 +4,7 @@ This project explored the 'European Soccer Dataset' from Kaggle, which includes 
 
 Data Source: [Kaggle-European Soccer Dataset](https://www.kaggle.com/datasets/hugomathien/soccer)
 
-### 01_Data_Overview
+#### 01_Data_Overview
 
 The raw data source contains seven tables:
 - matches: 25979 rows containing match date,  home team, away team, starting coordinates of all players, betting info, etc.
@@ -14,8 +14,9 @@ The raw data source contains seven tables:
 - team_detail: 1458 rows containing team id, date, and attributes such as buildUpPlaySpeed, 	buildUpPlayDribbling, buildUpPlayPassing, etc.
 - player: 11060 rows containing player id, player name, birthday, height, weight
 - player_detail: 183978 rows containing player id, date, and attributes such as overall_rating, potential, preferred_foot, crossing, finishing, etc.
+
   
-### 02_Player_Detail_Transformation
+#### **02_Player_Detail_Transformation**
 
 I simplified the 38 attributes in 'player_detail' table into six categories: 'passing', 'shooting', 'defence', 'goalkeeping', 'offence_misc', 'movement'.
 Plotting the correlation heatmap on preliminary grouping indicates whether in-group conflict exists. Some attributes were taken out of the group to avoid canceling out each other.
