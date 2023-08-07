@@ -53,7 +53,7 @@ The data source has noted the XY coordinates of all 22 players in the starting l
 
 Upon this, players are labeled as MF(midfielder), ST(striker), W(winger), SB(side back), CB(center back), GK(goalkeeper). In the distribution (see below) MF has the highest count.
 
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-1.PNG?raw=true" alt="Image Description" width="300" height="250">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-1.PNG?raw=true" alt="Image Description" width="300" height="220">
 
 Graphs below are three samples of different starting formations, with player positions labeled.
 <div style="display: flex; align-items: flex-start;">
@@ -142,6 +142,6 @@ Model performance was compared between: 1. a dummy classifier predicting based o
 
 **Advantage feature model**
 
-Logistic Regression
+Logistic Regression \
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-4.PNG?raw=true" alt="Image Description" width="400" height="160"> 
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-5.PNG?raw=true" alt="Image Description" width="210" height="200">
