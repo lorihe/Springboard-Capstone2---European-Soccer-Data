@@ -123,7 +123,7 @@ Plotting advantage features showed that some features such as the ability of def
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/05-7.PNG?raw=true" alt="Image Description" width="650" height="410">
   
  Plotting below shows some advantage features have stronger relations with win or lose than the others.
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/05-8.PNG?raw=true" alt="Image Description" width="650" height="440">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/05-8.PNG?raw=true" alt="Image Description" width="680" height="440">
 
 
 ### 06_Modeling  [Notebook](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/06_Modeling.ipynb)
@@ -131,16 +131,16 @@ Model performance was compared between: 1. a dummy classifier predicting based o
 
 **Dummy classifier**
 
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-1.PNG?raw=true" alt="Image Description" width="400" height="400">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-1.PNG?raw=true" alt="Image Description" width="400" height="390">
 
 
 **Plain stats model**
 
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-2.PNG?raw=true" alt="Image Description" width="400" height="185"> 
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-2.PNG?raw=true" alt="Image Description" width="400" height="180"> 
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-3.PNG?raw=true" alt="Image Description" width="200" height="200">
 
 
 **Advantage feature model**
 
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-4.PNG?raw=true" alt="Image Description" width="400" height="185"> 
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-4.PNG?raw=true" alt="Image Description" width="400" height="180"> 
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/06-5.PNG?raw=true" alt="Image Description" width="210" height="200">
