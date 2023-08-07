@@ -48,7 +48,8 @@ The data source has noted the XY coordinates of all 22 players in the starting l
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/Positions.jpg?raw=true" alt="Image Description" width="300" height="300">
 
 Upon this, players are labeled as MF(midfielder), ST(striker), W(winger), SB(side back), CB(center back), GK(goalkeeper). In the distribution (see below) MF has the highest count.
-  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-1.PNG?raw=true" alt="Image Description" width="300" height="300">
+
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/03-1.PNG?raw=true" alt="Image Description" width="300" height="280">
 
 Graphs below are three samples of different starting formations, with player positions labeled.
 <div style="display: flex; align-items: flex-start;">
@@ -64,13 +65,21 @@ I selected six attributes 'dribbling', 'sprint_speed', 'passing', 'shooting', 'd
 
 ### 04_EDA_Plain_Stats  [Notebook](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/04_EDA_Plain_Stats.ipynb)
 
-- Plain stats dataset EDA
 The correlation heatmap below shows that:
 1. there are constant high correlations between 'offence_misc',  'passing', and 'shooting' of MF, ST, and W, they should be merged.
 2. there are constant high correlations between 'offence_misc' and  'passing' of SB, they should be merged.
 
-
-
+All the attributes-position combos were plotted to show their correlation with game results (partially shown below). Some plots were as expected, like high offence_misc midfielder and high defense center back both matching with more wins than losses, while striker's defense and centreback's offence_misc didn't show a strong relation with win or loss distribution. Some are not as easily expected, like the midfielder's defense not showing strong relation but the centreback's movement showing relation with more wins.
+<div style="display: flex; align-items: flex-start;">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-1.PNG?raw=true" alt="Image Description" width="260" height="240">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-2.PNG?raw=true" alt="Image Description" width="260" height="240">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-3.PNG?raw=true" alt="Image Description" width="260" height="240">
+</div>
+<div style="display: flex; align-items: flex-start;">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-4.PNG?raw=true" alt="Image Description" width="260" height="240">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-5.PNG?raw=true" alt="Image Description" width="260" height="240">
+  <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/04-6.PNG?raw=true" alt="Image Description" width="260" height="240">
+</div>
 
 
 
