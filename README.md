@@ -68,7 +68,7 @@ I merged the info of positions and attributes of each player in each game to get
 I selected six attributes 'dribbling', 'sprint_speed', 'passing', 'shooting', 'defense', 'goalkeeping' from the player attribute dataset for this research and assign them to each position. This dataset was prepared for the first model.
 
 
-#### 04_EDA_Plain_Stats  [Notebook](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/04_EDA_Plain_Stats.ipynb)
+#### 04_EDA_Plain_Stats  [Notebook](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/Notebook/04_EDA_Plain_Stats.ipynb)
 
 The correlation heatmap below shows that:
 1. there are constant high correlations between 'offence_misc',  'passing', and 'shooting' of MF, ST, and W, they should be merged.
@@ -87,7 +87,7 @@ All the attributes-position combos were plotted to show their relations with gam
 </div>
 
 
-#### 05_EDA_Adv_Stats  [Notebook](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/05_EDA_Adv_Stats.ipynb)
+#### 05_EDA_Adv_Stats  [Notebook](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/Notebook/05_EDA_Adv_Stats.ipynb)
 
 Here I made an attempt on showing paired relation between advantages by creating 'advantage' features. To do this, first I checked out the strength of each position by plotting below.
 <div style="display: flex; align-items: flex-start;">
@@ -126,7 +126,7 @@ Plotting advantage features showed that some features such as the ability of def
   <img src="https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/imgs/05-8.PNG?raw=true" alt="Image Description" width="680" height="440">
 
 
-#### 06_Modeling  [Notebook](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/06_Modeling.ipynb)
+#### 06_Modeling  [Notebook](https://github.com/lorihe/Springboard-Capstone2---European-Soccer-Data/blob/main/Notebook/06_Modeling.ipynb)
 Model performance was compared between: 1. a dummy classifier predicting based on dataset results ratio; 2. a model trained on plain stats data; 3. a model trained on advantage feature data.
 
 **Dummy classifier**
