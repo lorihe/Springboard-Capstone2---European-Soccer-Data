@@ -102,7 +102,7 @@ Here I made an attempt on showing paired relation between advantages by creating
 </div>
 
 
-Combining the observation and some common sense, I created the paired system as below:
+Combining the observation and some common sense, I created the paired system as below: \
 Note: dictionary structure--- {advantage feature: [numerator(s)], [denominator(s)], coefficient}
 >advantage_pair = { \
     'offence_box_adv':(['shooting_ST_home','shooting_W_home'],['defence_CB_away','defence_SB_away'],1),  \
